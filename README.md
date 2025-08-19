@@ -41,9 +41,6 @@ We combine variety, quality, and affordability to provide a seamless shopping ex
 This website is hosted via GitHub Pages.  
 **Live Link:** [Trendy Items Hub Live]https://acquillah.github.io/TRENDY-ITEMS-HUB/
 
-*(Replace `YOUR-USERNAME` with your GitHub username once the site is published.)*
-
-## 📜 License
 
 This project is open-source and free to use.
 
