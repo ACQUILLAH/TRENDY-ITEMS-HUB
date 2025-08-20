@@ -9,73 +9,103 @@
 <body>
   <!-- Header -->
   <header>
-    <img src="images/logo.png" alt="Trendy Items Hub Logo" class="logo">
+    <img src="images/logo.png" alt="Trendy Items Hub Logo" class="logo" style="max-width:80px; border-radius:50%;">
     <h1>Trendy Items Hub</h1>
+    <p>Your One-Stop Shop for Trendy Items</p>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section id="hero" class="hero">
     <div class="hero-text">
-      <h2>Your One-Stop Shop for Trendy Items</h2>
+      <h2>Discover What's Trending</h2>
       <p>From eyewear to gadgets – everything trendy in one place.</p>
     </div>
   </section>
 
   <!-- Categories Section -->
-  <section class="categories">
+  <section id="categories">
     <h2>Shop by Category</h2>
-    <div class="category-list">
-      <div class="category">
+    <div class="products">
+      <div class="product-card">
         <img src="images/glasses.jpg" alt="Eyeglasses">
         <h3>Eyeglasses</h3>
+        <p>Stylish frames for every mood.</p>
+        <button>Shop Now</button>
       </div>
-      <div class="category">
+      <div class="product-card">
         <img src="images/pens.jpg" alt="Pens">
         <h3>Pens</h3>
+        <p>Elegant pens for work and school.</p>
+        <button>Shop Now</button>
       </div>
-      <div class="category">
+      <div class="product-card">
         <img src="images/phone-holder.jpg" alt="Phone Holders">
         <h3>Phone Holders</h3>
+        <p>Secure your phone on the go.</p>
+        <button>Shop Now</button>
       </div>
-      <div class="category">
+      <div class="product-card">
         <img src="images/bag.jpg" alt="Bags">
         <h3>Bags</h3>
+        <p>Carry essentials in style.</p>
+        <button>Shop Now</button>
       </div>
-      <div class="category">
+      <div class="product-card">
         <img src="images/toy-gun.jpg" alt="Toy Guns">
         <h3>Toy Guns</h3>
+        <p>Fun for kids and collectors.</p>
+        <button>Shop Now</button>
       </div>
     </div>
   </section>
 
   <!-- Featured Products -->
-  <section class="products">
+  <section id="featured">
     <h2>Featured Products</h2>
-    <div class="product-list">
-      <div class="product">
+    <div class="products">
+      <div class="product-card">
         <img src="images/glasses.jpg" alt="Stylish Glasses">
         <h3>Stylish Glasses</h3>
         <p>Trendy frames for every occasion.</p>
+        <button>Buy Now</button>
       </div>
-      <div class="product">
+      <div class="product-card">
         <img src="images/phone-holder.jpg" alt="Phone Holder">
         <h3>Car Phone Holder</h3>
         <p>Keep your phone safe while driving.</p>
+        <button>Buy Now</button>
       </div>
-      <div class="product">
+      <div class="product-card">
         <img src="images/bag.jpg" alt="Phone Bag">
         <h3>Phone Bag</h3>
         <p>Carry your essentials in style.</p>
+        <button>Buy Now</button>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section class="contact">
+  <section id="contact" class="contact">
     <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
     <p>📞 Phone: +256 756140196</p>
     <p>💬 WhatsApp: +256 756140196</p>
-    <p>📧 Email:arindaacquilla@gmail.com</p>
+    <p>📧 Email: arindaacquilla@gmail.com</p>
   </section>
 
   <!-- Footer -->
